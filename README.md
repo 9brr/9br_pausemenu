@@ -7,7 +7,7 @@
 * Fully designed and fully supports Arabic and English
 
 
-يمكن لك تغير اللغة من خلال الكونفق 
+ يمكن تغيير اللغة من خلال الكونفق.
 ```
 Config = {}
 Config.Locale = "ar" -- "en" or "ar"
