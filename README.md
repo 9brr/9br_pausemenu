@@ -3,8 +3,8 @@
  * مصممة بالكامل وتدعم اللغة العربية وانجليزي بشكل كامل 
  
 
-## فيديو [GitHub Pages](‎https://youtu.be/ye5DpqjU0ZM/).
-
+## فيديو 
+ ‎ https://youtu.be/ye5DpqjU0ZM
  
 
 
