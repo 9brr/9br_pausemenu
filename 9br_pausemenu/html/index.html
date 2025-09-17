@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <title>Pause Menu</title>
+</head>
+<body>
+    <div id="menu">
+        <h1 id="title">قائمة الإيقاف المؤقت</h1>
+        <p id="playerId">الهوية: ...</p>
+        <button id="resume" class="close-menu">استئناف اللعبة</button>
+        <button id="map" class="map">الخريطة</button>
+        <button id="settings" class="settings">الإعدادات</button>
+        <button id="exitServer" class="exit-confirm">الخروج من الخادم</button>
+    </div>
+
+    <div id="confirmation">
+        <div id="confirmation-box">
+            <h2 id="confirmExit">هل أنت متأكد أنك تريد الخروج من السيرفر؟</h2>
+            <button id="yes" class="exit">نعم</button>
+            <button id="no" class="cancel-exit">لا</button>
+        </div>
+    </div>
+
+    <script src="js/locales.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

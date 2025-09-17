@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cairo', sans-serif;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+#menu {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 13px 18px 28px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  position: relative;
+}
+
+#menu button {
+  font-family: 'Cairo', sans-serif;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.31);
+  color: white;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s, transform 0.2s;
+}
+
+#menu button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.exit-confirm, .close-menu {
+  bottom: 20px;
+  padding: 10px 20px;
+  font-family: 'Cairo', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.close-menu {
+  right: 20px;
+  font-family: 'Cairo', sans-serif;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.exit-confirm {
+  left: 20px;
+  background-color: rgba(192, 57, 43, 0.8);
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+.exit-confirm:hover {
+  background-color: rgba(231, 76, 60, 0.8);
+}
+
+.close-menu:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#confirmation {
+  display: none;
+}
+
+#confirmation-box {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 18px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 13px 18px 28px rgba(0, 0, 0, 0.5);
+}
+
+#confirmation h2 {
+  margin: 0 0 20px;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+#confirmation button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s, transform 0.2s;
+}
+
+#confirmation button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+#confirmation .cancel-exit {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#confirmation .cancel-exit:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#confirmation .exit {
+  background-color: rgba(192, 57, 43, 0.8);
+}
+
+#confirmation .exit:hover {
+  background-color: rgba(231, 76, 60, 0.8);
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 13px 18px 28px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 175px;
+    position: static;    
+    right: 185px;         
+    direction: rtl;
+    color: white;
+    text-align: right;
+}
+
+.container h1 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    text-align: center;
+}
