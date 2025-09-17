@@ -2,12 +2,10 @@
  * يفتح لك قائمة احترافية أنيقة تظهر فور الضغط ESC
  * مصممة بالكامل وتدعم اللغة العربية وانجليزي بشكل كامل 
  
-# "Pause Menu" Script — Free for Store Members
-* Opens a professional, elegant menu that appears immediately upon pressing ESC
-* Fully designed and fully supports Arabic and English
 
+## فيديو [GitHub Pages](‎https://youtu.be/ye5DpqjU0ZM/).
 
- ‎ https://youtu.be/ye5DpqjU0ZM
+ 
 
 
  يمكن تغيير اللغة من خلال الكونفق.
