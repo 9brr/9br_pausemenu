@@ -7,6 +7,9 @@
 * Fully designed and fully supports Arabic and English
 
 
+ ‎ https://youtu.be/ye5DpqjU0ZM
+
+
  يمكن تغيير اللغة من خلال الكونفق.
 ```
 Config = {}
